@@ -1,0 +1,8 @@
+{
+  order pl last
+}
+:9199 {
+    pl {
+        shutdown_file "D:\work\go_test2\2.txt"
+    }
+}
