@@ -2,7 +2,9 @@
   order pl last
 }
 :9199 {
+    root * D:\\work\\go_test2\\
     pl {
-        shutdown_file "D:\work\go_test2\2.txt"
+        shutdown_file D:\\work\\go_test2\\2.txt
     }
+    php_fastcgi 127.0.0.1:8072
 }

@@ -1,6 +1,8 @@
-# xcaddy kill的信号插件
+# [xcaddy](https://github.com/caddyserver/xcaddy) kill的信号插件
 
-监听caddy被kill的信号,写入到文件,使用场景: 当docker内收到kill信号之后不再接受服务,配合容器健康检查一并使用
+监听caddy被kill的信号,写入到文件,使用场景: 当docker内收到kill信号之后不再接受服务,配合容器健康检查一并使用;
+
+实际测试在收到信号之后caddy不会再接受请求,且会等待正在处理的请求完成返回然后才会停止服务
 
 - 安装插件
 
