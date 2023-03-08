@@ -20,7 +20,7 @@ xcaddy build --with github.com/jcleng/caddy-pl@v0.1.0
 }
 :9199 {
     pl {
-        shutdown_file "D:\work\go_test2\2.txt"
+        shutdown_file "D:\\work\\go_test2\\2.txt"
     }
 }
 
