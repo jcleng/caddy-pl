@@ -6,6 +6,7 @@
 
 ```shell
 go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
+# go get -v github.com/jcleng/caddy-pl@v0.1.0 到gopath
 xcaddy build --with github.com/jcleng/caddy-pl@v0.1.0
 ```
 
