@@ -4,6 +4,9 @@
 
 - 使用,加入pl插件并配置写入文件位置
 
+```shell
+xcaddy build --with github.com/jcleng/caddy-pl
+```
 ```caddy
 {
   order pl last
