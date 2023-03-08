@@ -1,4 +1,4 @@
-module github.com/ggicci/caddy-jwt
+module github.com/jcleng/caddy-pl
 
 go 1.18
 
